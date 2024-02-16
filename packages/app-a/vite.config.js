@@ -9,7 +9,7 @@ export default defineConfig(() => ({
   },
   build: {
     rollupOptions: {
-      input: resolve(__dirname, "src/MicroFrontend.jsx"),
+      input: resolve(__dirname, "src/main.jsx"),
       preserveEntrySignatures: "exports-only",
       external: ["react", "react-dom"],
       output: {

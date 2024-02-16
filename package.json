@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev:all": "pnpm --parallel --filter \"app-*\" --filter \"shell\" dev",
+    "dev:apps": "pnpm --filter \"app-*\" dev",
     "dev:shell": "pnpm --filter \"shell\" dev",
     "build:apps": "pnpm --parallel --filter \"app-*\" build",
     "serve:apps": "pnpm --parallel --filter \"app-*\" serve",
