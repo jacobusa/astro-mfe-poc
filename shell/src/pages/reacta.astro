@@ -1,0 +1,15 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ReactComponentA from "../components/ReactComponentA.jsx";
+---
+
+<Layout title="Welcome to Astro.">
+  <main>
+    <h1>
+      React app A
+    </h1>
+    <ul role="list" class="link-card-grid">
+      <ReactComponentA client:only="react" />
+    </ul>
+  </main>
+</Layout>
