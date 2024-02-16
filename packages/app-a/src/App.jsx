@@ -3,11 +3,14 @@ import Card from "./Card";
 import "./App.css";
 
 const App = () => (
-  <Card
-    href="https://tailwindcss.com/"
-    title="React with Tailwind"
-    body="A Micro Frontend built with React and Tailwind CSS."
-  />
+  <div>
+    <h1 className="bg-blue text-red-600">hhey</h1>
+    <Card
+      href="https://tailwindcss.com/"
+      title="React with Tailwind"
+      body="A Micro Frontend built with React and Tailwind CSS."
+    />
+  </div>
 );
 
 export default App;

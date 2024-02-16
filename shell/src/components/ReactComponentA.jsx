@@ -1,8 +1,7 @@
-import MicroFrontendA from "http://localhost:7100/bundle.js";
-// const MicroFrontendA = await import(
-//   "http://localhost:7100/src/MicroFrontend.jsx"
-// ).then((app) => app);
-// console.log("MicroFrontendA", MicroFrontendA);
+// import MicroFrontendA from "http://localhost:7100/bundle.js";
+// import MicroFrontendA from "../../../packages/app-a/src/MicroFrontend.jsx";
+const MicroFrontendA = import("react-app");
+console.log("MicroFrontendA", MicroFrontendA);
 
 const ReactComponent = () => <MicroFrontendA />;
 
