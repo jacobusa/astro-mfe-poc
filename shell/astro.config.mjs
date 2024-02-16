@@ -16,7 +16,6 @@ export default defineConfig({
               "react",
               "react-dom",
               "solid-js",
-              "react-app",
             ];
           }
         },

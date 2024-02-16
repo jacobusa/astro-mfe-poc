@@ -1,10 +1,12 @@
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
 import cssInject from "vite-plugin-css-injected-by-js";
 import { resolve } from "path";
 
 export default defineConfig(() => ({
-  plugins: [react(), cssInject()],
+  plugins: [cssInject()],
+  server: {
+    port: 7100,
+  },
   build: {
     rollupOptions: {
       input: resolve(__dirname, "src/MicroFrontend.jsx"),
