@@ -4,7 +4,7 @@ import "./App.css";
 
 const App = () => (
   <div>
-    <h1 className="bg-blue text-red-600">h2hey</h1>
+    <h1 className="bg-blue text-red-600">we fuckin did it</h1>
     <Card
       href="https://tailwindcss.com/"
       title="React with Tailwind"
